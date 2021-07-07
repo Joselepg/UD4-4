@@ -11,18 +11,17 @@ public class Ejercicio4App {
 
 	public static void main(String[] args) {
 		int n=6;
-		int result=0;
 		//VALOR INICIAL DE N
 		System.out.println("Valor inicial de N = "+n);
 		//INCREMENTAR N EN 77
-		result=n+77;
-		System.out.println(n+" + 77 = "+result);
+		n=n+77;
+		System.out.println("N = "+n);
 		//DECREMENTARLA EN 3
-		result=n-3;
-		System.out.println(n+" - 3 = "+result);
+		n=n-3;
+		System.out.println("N = "+n);
 		//DUPLICAR SU VALOR
-		result=n*2;
-		System.out.println(n+" * 2 = "+result);
+		n=n*2;
+		System.out.println("N = "+n);
 	}
 
 }
